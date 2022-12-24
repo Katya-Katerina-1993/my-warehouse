@@ -1,0 +1,573 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Мой склад</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style type="text/css">
+    body {
+      width: 100% !important;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      margin: 0;
+      padding: 0;
+      line-height: 100%;
+    }
+
+    [style*="Verdana"] {
+      font-family: 'Verdana', arial, sans-serif !important;
+    }
+
+    h1,
+    h2,
+    p,
+    ul {
+      margin: 0;
+    }
+
+    img {
+      outline: none;
+      text-decoration: none;
+      border: none;
+      -ms-interpolation-mode: bicubic;
+      max-width: 100% !important;
+      margin: 0;
+      padding: 0;
+      display: block;
+    }
+
+    table td {
+      border-collapse: collapse;
+    }
+
+    table {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    .logo-td {
+      padding: 38px 0 28px;
+    }
+
+    .start-td {
+      padding: 43px 0 50px;
+    }
+
+    .start-td h1 {
+      margin-bottom: 23px;
+      font-size: 22px;
+      line-height: 30px;
+      color: #28355C;
+    }
+
+    .start-td img {
+      margin-bottom: 25px;
+    }
+
+    .guide-td p {
+      margin-bottom: 16px;
+      font-size: 14px;
+      line-height: 22px;
+      color: #28355C;
+    }
+
+    .guide-td a {
+      color: #2855AF;
+    }
+
+    .possibilities-td p {
+      margin-bottom: 16px;
+      font-size: 14px;
+      line-height: 22px;
+      color: #28355C;
+    }
+
+    .possibilities-td ul {
+      margin-bottom: 27px;
+      padding: 0 0 0 16px;
+    }
+
+    .possibilities-td li {
+      font-size: 14px;
+      line-height: 18px;
+      color: #2855AF;
+    }
+
+    .possibilities-td li:not(:last-child) {
+      margin-bottom: 8px;
+    }
+
+    .possibilities-td span {
+      color: #2C3D69;
+    }
+
+    .learn-btn a {
+      display: inline-block;
+      padding: 14px 53px 12px 49px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+      color: #ffffff;
+      background-color: #2855AF;
+      text-decoration: none;
+    }
+
+    .help-td {
+      padding: 31px 0 30px;
+    }
+
+    .help-title h2 {
+      margin-bottom: 24px;
+      font-size: 14px;
+      line-height: 22px;
+      color: #28355C;
+    }
+
+    .help-descr p {
+      margin-bottom: 27px;
+      font-size: 14px;
+      line-height: 22px;
+      color: #28355C;
+    }
+
+    .help-descr a {
+      font-weight: 700;
+      color: #28355C;
+      text-decoration: none;
+    }
+
+    .ask-btn a {
+      display: inline-block;
+      padding: 15px 42px 13px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 22px;
+      color: #2855AF;
+      background-color: #B4CDFF;
+      text-decoration: none;
+    }
+
+    .wish-td {
+      padding: 33px 0 49px;
+    }
+
+    .wish-td b {
+      font-size: 14px;
+      line-height: 22px;
+      color: #28355C;
+    }
+
+    .wish-td p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      color: #28355C;
+    }
+
+    .nav-td {
+      padding: 0 0 15px 0;
+    }
+
+    .link a {
+      display: inline-block;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 20px;
+      text-decoration: none;
+    }
+
+    .social-td {
+      padding: 0 0 32px;
+    }
+
+    .unfollow {
+      padding: 16px 0 80px;
+      border-top: 1px solid #D7DFF0;
+    }
+
+    .unfollow tr td {
+      display: inline-block;
+      margin: 0 0 0 19px;
+    }
+
+    .unfollow p {
+      margin-bottom: 6px;
+      font-size: 11px;
+      line-height: 16px;
+      color: #28355C;
+    }
+
+    .unfollow a {
+      font-size: 11px;
+      line-height: 16px;
+      color: #28355C;
+    }
+
+    @media (max-width: 620px) {
+      .table-1000 {
+        width: 500px !important;
+      }
+
+      .table-600,
+      .table-640 {
+        width: 320px !important;
+      }
+
+      .table-500,
+      .table-480,
+      .table-315 {
+        width: 280px !important;
+      }
+
+      .table-122 {
+        width: 180px !important;
+      }
+
+      .logo-td {
+        padding: 30px 0 20px;
+      }
+
+      .start-td {
+        padding: 30px 0 40px;
+      }
+
+      .start-td h1 {
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 20px;
+      }
+
+      .start-td img {
+        margin-bottom: 15px;
+      }
+
+      .guide-td p {
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 18px;
+      }
+
+      .possibilities-td p {
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 18px;
+      }
+
+      .possibilities-td ul {
+        margin-bottom: 15px;
+      }
+
+      .possibilities-td li {
+        font-size: 12px;
+        line-height: 16px;
+      }
+
+      .possibilities-td li:not(:last-child) {
+        margin-bottom: 5px;
+      }
+
+      .learn-btn a {
+        padding: 10px 35px;
+        font-size: 12px;
+        line-height: 18px;
+      }
+
+      .help-td {
+        padding: 20px 0;
+      }
+
+      .help-title h2 {
+        margin-bottom: 15px;
+        font-size: 12px;
+        line-height: 16px;
+      }
+
+      .help-descr p {
+        margin-bottom: 15px;
+        font-size: 12px;
+        line-height: 18px;
+      }
+
+      .ask-btn a {
+        padding: 10px 35px;
+        font-size: 12px;
+        line-height: 18px;
+      }
+
+      .wish-td {
+        padding: 25px 0 35px;
+      }
+
+      .wish-td b {
+        font-size: 12px;
+        line-height: 18px;
+      }
+
+      .wish-td p {
+        font-size: 12px;
+        line-height: 18px;
+      }
+
+      .link a {
+        font-size: 10px;
+        line-height: 16px;
+      }
+
+      .social-td {
+        padding: 0 0 10px;
+      }
+
+      .unfollow {
+        padding: 16px 0 60px;
+      }
+
+      .unfollow tr td {
+        margin: 0 0 0 12px;
+      }
+
+      .unfollow p {
+        font-size: 10px;
+        line-height: 14px;
+      }
+
+      .unfollow a {
+        font-size: 10px;
+        line-height: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+  <div style="font-size:0px;font-color:#ffffff;opacity:0;visibility:hidden;width:0;height:0;display:none;">Тестовое
+    задание</div>
+  <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ededed">
+    <tr>
+      <td>
+        <table class="table-1000" align="center" cellpadding="0" cellspacing="0" width="1000" bgcolor="#F5F5F5">
+          <tr>
+            <td>
+              <table class="table-600" align="center" cellpadding="0" cellspacing="0" width="600">
+                <tr>
+                  <td class="logo-td">
+                    <img src="http://email-template.cw08202.tmweb.ru/img/logo.png" alt="Логотип" />
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table class="table-1000" align="center" cellpadding="0" cellspacing="0" width="1000" bgcolor="#F5F5F5">
+          <tr>
+            <td>
+              <table class="table-600" align="center" cellpadding="0" cellspacing="0" width="600" bgcolor="#FFFFFF">
+                <tr>
+                  <td class="start-td">
+                    <table class="table-500" align="center" cellpadding="0" cellspacing="0" width="500">
+                      <tr>
+                        <td>
+                          <h1 style="font-family: Verdana, Helvetica, sans-serif;">Как начать работать?</h1>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="http://email-template.cw08202.tmweb.ru/img/start.jpg" alt="Как начать работать?" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="guide-td">
+                          <p style="font-family: Verdana, Helvetica, sans-serif;">
+                            Пошаговая <a href="#">инструкция</a> помогает быстро разобраться с&nbsp;основными
+                            возможностями
+                            МоегоСклада и&nbsp;настроить его под
+                            себя. Все настройки занимают 15&nbsp;минут.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="possibilities-td">
+                          <p style="font-family: Verdana, Helvetica, sans-serif;">Возможности МоегоСклада:</p>
+                          <ul style="font-family: Verdana, Helvetica, sans-serif;">
+                            <li><span>Управление торговлей и&nbsp;складской учет</span></li>
+                            <li><span>Бэк-офис для онлайн-продаж</span></li>
+                            <li><span>Автоматизация розницы</span></li>
+                            <li><span>Управление производством</span></li>
+                            <li><span>Работа с&nbsp;клиентами и&nbsp;поставщиками (CRM)</span></li>
+                            <li><span>Поддержка обязательной маркировки</span></li>
+                          </ul>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="learn-btn" align="center">
+                          <a href="#" style="font-family: Verdana, Helvetica, sans-serif;">Начать обучение</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table class="table-1000" align="center" cellpadding="0" cellspacing="0" width="1000" bgcolor="#F5F5F5">
+          <tr>
+            <td height="30"></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table class="table-1000" align="center" cellpadding="0" cellspacing="0" width="1000" bgcolor="#F5F5F5">
+          <tr>
+            <td>
+              <table class="table-600" align="center" cellpadding="0" cellspacing="0" width="600" bgcolor="#CBDEFF">
+                <tr>
+                  <td class="help-td">
+                    <table class="table-500" align="center" cellpadding="0" cellspacing="0" width="500">
+                      <tr>
+                        <td class="help-title" align="center">
+                          <h2 style="font-family: Verdana, Helvetica, sans-serif;">Мы&nbsp;с&nbsp;удовольствием поможем
+                            разобраться в&nbsp;МоемСкладе.</h2>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="help-descr" align="center">
+                          <p style="font-family: Verdana, Helvetica, sans-serif;">
+                            Обучающие видео и&nbsp;наглядные инструкции вы&nbsp;найдете в&nbsp;Центре поддержки. Если
+                            у&nbsp;вас останутся
+                            вопросы&nbsp;&mdash; пишите в&nbsp;чат. Чтобы помочь, сотрудники могут спросить название
+                            вашего
+                            аккаунта: <a href="mailto:account@admin">account@admin</a>
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="ask-btn" align="center">
+                          <a href="#" style="font-family: Verdana, Helvetica, sans-serif;">У&nbsp;меня есть вопрос</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table class="table-1000" align="center" cellpadding="0" cellspacing="0" width="1000" bgcolor="#F5F5F5">
+          <tr>
+            <td>
+              <table class="table-500" align="center" cellpadding="0" cellspacing="0" width="500">
+                <tr>
+                  <td class="wish-td" align="center">
+                    <b style="font-family: Verdana, Helvetica, sans-serif;">Желаем успешной работы!</b>
+                    <p style="font-family: Verdana, Helvetica, sans-serif;">Команда сервиса МойСклад</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table class="table-1000" align="center" cellpadding="0" cellspacing="0" width="1000" bgcolor="#F5F5F5">
+          <tr>
+            <td class="nav-td">
+              <table class="table-315" align="center" cellpadding="0" cellspacing="0" width="315">
+                <tr>
+                  <td class="link">
+                    <a href="#" style="font-family: Verdana, Helvetica, sans-serif;">Возможности</a>
+                  </td>
+                  <td class="link">
+                    <a href="#" style="font-family: Verdana, Helvetica, sans-serif;">Документация</a>
+                  </td>
+                  <td class="link">
+                    <a href="#" style="font-family: Verdana, Helvetica, sans-serif;">Поддержка</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td class="social-td">
+              <table class="table-122" align="center" cellpadding="0" cellspacing="0" width="122">
+                <tr>
+                  <td class="social-link" align="center">
+                    <a href="#">
+                      <img src="http://email-template.cw08202.tmweb.ru/img/vkontakte.png" alt="Мы во Вконтакте" />
+                    </a>
+                  </td>
+                  <td class="social-link" align="center">
+                    <a href="#">
+                      <img src="http://email-template.cw08202.tmweb.ru/img/twitter.png" alt="Мы в Твиттере" />
+                    </a>
+                  </td>
+                  <td class="social-link" align="center">
+                    <a href="#">
+                      <img src="http://email-template.cw08202.tmweb.ru/img/youtube.png" alt="Мы на Ютубе" />
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table class="table-1000" align="center" cellpadding="0" cellspacing="0" width="1000" bgcolor="#F5F5F5">
+          <tr>
+            <td>
+              <table class="table-640" align="center" cellpadding="0" cellspacing="0" width="640" bgcolor="#F5F5F5">
+                <tr>
+                  <td class="unfollow">
+                    <table class="table-480" align="center" cellpadding="0" cellspacing="0" width="480">
+                      <tr>
+                        <td align="center">
+                          <p style="font-family: Verdana, Helvetica, sans-serif;">Вы&nbsp;получили это письмо, так как
+                            ранее
+                            регистрировались в&nbsp;сервисе МойСклад.
+                          </p>
+                          <a href="#" style="font-family: Verdana, Helvetica, sans-serif;">Отписаться
+                            от&nbsp;рассылки</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

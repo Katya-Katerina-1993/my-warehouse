@@ -1,2 +1,9 @@
 # my-warehouse
-E-mail-layout of "My warehouse"
+Верстка электронного письма для фирмы "Мой склад" по макету из Фигмы. Адаптивно, pixel perfect, идентично в различных почтовых клиентах. 
+
+Десктоп
+![Мой склад десктоп](https://user-images.githubusercontent.com/110754881/221090224-3a51a3a3-d27a-4653-8053-bd946a456e3b.png)
+
+Планшеты и мобильные телефоны
+
+![Мой склад мобайл](https://user-images.githubusercontent.com/110754881/221090297-9c3e9aab-7784-4a84-b4e5-1f3da3f54167.png)
